@@ -4,7 +4,7 @@ export const apiSlice = createApi({
     reducerPath: 'api',
     tagTypes: ["Items ", "allData"],
     baseQuery: fetchBaseQuery({
-        baseUrl: 'https://full-project-pied.vercel.app/', 
+        baseUrl: 'https://full-project-aelz.onrender.com/', 
     prepareHeaders: (header) => {
       const token = localStorage.getItem('token');
       if (token) {
